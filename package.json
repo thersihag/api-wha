@@ -1,0 +1,15 @@
+{
+  "name": "free-wa-bulk-gateway",
+  "version": "1.0.0",
+  "description": "Free cloud ready WhatsApp bulk sender gateway",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.6.0",
+    "express": "^4.18.2",
+    "pino": "^8.16.1",
+    "qrcode": "^1.5.3"
+  }
+}
